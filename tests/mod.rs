@@ -204,3 +204,9 @@ fn access_env_var() {
     let test = "env_var";
     check_percentage(test, 1.0f64, true);
 }
+
+#[test]
+#[ignore]
+fn follow_exes_down() {
+    check_percentage("follow_exe", 1.0f64, true);
+}
